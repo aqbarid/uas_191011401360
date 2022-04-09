@@ -1,16 +1,16 @@
 # uas_191011401360
 
-A new Flutter project.
+UAS Mobile Programing
 
-## Getting Started
+## Jawaban Pertanyaan
 
-This project is a starting point for a Flutter application.
+**1. Apa yang dimaksud dengan state management pada flutter?**
+State Management adalah sebuah cara untuk mengatur data / state kita bekerja, bisa juga untuk memisahkan antara logic dan view dimana logic tersebut juga bisa re-usable.
+Cara kerja State Management seperti Provide and Listen, maksudnya adalah kita bisa memasukan state yang kemungkinan bisa berubah sewaktu waktu, lalu Widget yang Subscribe (Listen) dengan Provider yang kita buat akan berubah sesuai dengan state yang berubah.
 
-A few resources to get you started if this is your first Flutter project:
+**2. Sebutkan apa saja state management pada flutter !**
+Manajemen keadaan dapat dibagi menjadi dua kategori berdasarkan durasi keadaan tertentu berlangsung dalam suatu aplikasi.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+> *Ephemeral* Berlangsung selama beberapa detik seperti status animasi saat ini atau satu halaman seperti peringkat produk saat ini. Flutter mendukungnya melalui StatefulWidget.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> *app* state aplikasi Terakhir untuk seluruh aplikasi seperti detail pengguna yang masuk, informasi keranjang, dll., Flutter mendukungnya melalui scoped_model.
